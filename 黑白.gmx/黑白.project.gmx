@@ -12,6 +12,19 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="obj_player">
+      <scripts name="base">
+        <script>scripts\scr_player_base_create.gml</script>
+        <script>scripts\scr_player_base_step.gml</script>
+      </scripts>
+      <scripts name="move">
+        <script>scripts\scr_player_move_create.gml</script>
+        <script>scripts\scr_player_move_step.gml</script>
+        <script>scripts\scr_player_move_draw.gml</script>
+      </scripts>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_bblock</object>
     <object>objects\obj_wblock</object>
